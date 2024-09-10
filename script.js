@@ -63,9 +63,11 @@ closeDialog.addEventListener('click', () => {
 });
 
 function addBookToLibrary() {
-    let newBook = new Book(titleInput.value, authorInput.value, pagesInput.value, readInput.checked);
-    myLibrary.push(newBook);
-    render();
+    if (titleInput.value != '' && authorInput.value != '') {
+        let newBook = new Book(titleInput.value, authorInput.value, pagesInput.value, readInput.checked);
+        myLibrary.push(newBook);
+        render();
+    }
 }
 
 const submit = document.querySelector('.submit');
