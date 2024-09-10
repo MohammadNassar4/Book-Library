@@ -12,7 +12,7 @@ Book.prototype.toggleRead = function() {
 }
 
 function toggleRead(index) {
-    myLibrary[indexgit].toggleRead();
+    myLibrary[index].toggleRead();
     render();
 }
 
