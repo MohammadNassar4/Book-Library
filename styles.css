@@ -103,20 +103,21 @@ form button.submit {
 
 .card {
     height: 250px;
-    background-image: url(Untitled.png);
+    background-image: url(bookcover.jpg);
     background-size: cover;
     text-align: center;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 13px;
     position: relative;
     overflow: hidden;
+    padding-top: 35px;
 }
 .card p {
     height: fit-content;
-    color: #da9c00;
-    font-size: 20px;
-    margin: 10px;
+    color: #9d816b;
+    font-size: 19px;
+    margin-bottom: 15px;
 }
 
 .card-btns {
